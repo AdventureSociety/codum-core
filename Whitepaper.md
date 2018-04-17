@@ -32,7 +32,8 @@ On top of that all good, software development driven token emerges, together wit
 Platform Overview
 codum platform consists of these main components:
 
-Public Website Frontend
+
+### Public Website Frontend
 
 Representative content explaining the codum platform - what it is and how it works
 Platform services and user benefits
