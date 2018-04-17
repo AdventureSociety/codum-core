@@ -1,10 +1,8 @@
-                   Codum
-       the code marketplace in Blockchain
-                   V 2.1		
-                 2018-04-02
-
-                Introduction
-                
+# Codum
+The Code Marketplace in Blockchain
+V 2.1
+02.04.2018
+Introduction 
 Currently, all cloud based source code repositories and distribution is handled by privately maintained profit oriented companies like Github (by Github Inc., USA), Bitbucket (by Atlassian Pty.Ltd./Inc., Australia), GitLab (by GitLab B.V.,
 originated in Ukraine but rebased to USA), Launchpad (by Canonical Ltd., UK), and many others.
 Most of them are even proprietary code based, while SourceForge, which is in decline and has already the 3rd owner,
@@ -17,11 +15,11 @@ The solution - blockchain infrastructure based git code repository service with 
 As in current commercial implementation of existing code repository services, public open source code co-exists with private proprietary code in the same infrastructure. Transactions are processed and their performance depends on delegated stake user has in the blockchain infrastructure. Open source code repositories and their developers will need to be staked to be served, especially when considering a zero resource starting balance. It is possible to allocate minimum viable resources by blockchain consensus to every project or developer in a way that it is enough to start and at the same time it cannot be abused too much to slow down the network. When growing, in such way, open source developers are also motivated to have a part of the network, as they are contributing to the infrastructure they are using themselves, plus they are getting the financial benefit for serving the commercial proprietary codebase, and can have a stake in the grand picture.
 By adding the publication capability of the metadata and taxonomy for the private code repositories, codum also provides the so missing visibility feature for the proprietary code - the value of discoverability:
 
-						For owners of the code: ability to source and profit from the code by licensing it under smart contracts at any stage of the code lifecycle.
+For owners of the code: ability to source and profit from the code by licensing it under smart contracts at any stage of the code lifecycle.
 
-						For developers of the code: added value to the work history and profile, and ability to save valuable development time by discovering and outsourcing the existing code from other private repositories in addition to what is available in the open source.
+For developers of the code: added value to the work history and profile, and ability to save valuable development time by discovering and outsourcing the existing code from other private repositories in addition to what is available in the open source.
 
-						Both sides benefit from wider code reusability and easier integrations naturally happening due to the fact that larger and larger parts of code become common across their projects.
+Both sides benefit from wider code reusability and easier integrations naturally happening due to the fact that larger and larger parts of code become common across their projects.
 						
 All the transactions are formalized in the smart contracts between the parties.
 Licensed forks of private repositories may never become open source without the decision of the owner of the parent private repository, while the metadata of such repository would be public without an option. This enables the accounting of chain forking and cloning added to such metadata of all repositories.
@@ -29,7 +27,7 @@ Code theft detection is integrated in codum as well: in case cloned/forked repos
 Additional values are provided by creating the integrated project management, developer sourcing and market capabilities to the system. Developers gather their portfolio profiles by participating in the projects, both open and proprietary, where such profile data can be used for developer candidate selection process within the system. Employment can then be formalized as a smart contract and payment processed. Also, both contract sides - the developer and the contractor - can rate each other and the rating weight will depend on the smart contract overall value, on top of the success rating gathered from the metadata of the related developments, including such data as estimate overshots, declined pull requests, failed tests and so on.
 On top of that all good, software development driven token emerges, together with this newly created development and licensing economy. As software development services are higher in demand than supply, and when developers are taking codum token as preferred way of payment because it comes with the security and profile value for executing the smart contract, codum starts to gain momentum in valuation related to other crypto and fiat currencies, driving all cryptocurrency economy upwards. Companies need software development services and will want to exchange fiat currency into codum to pay developers. Additionally, software licensed through codum will gain demand in mass of the software consumer market with time, becoming the standard in software licensing.
 
-Platform Overview
+### Platform Overview
 codum platform consists of these main components:
 
 
@@ -44,17 +42,17 @@ Integrations
 InterBC (EOS, Steem, Ethereum, Bitcoin, other altcoins and tokens considered)
 Centralized (Google, Github, Facebook, Linkedin, Twitter, etc.)
 
-Distributed Source Code Repository Management Frontend
+### Distributed Source Code Repository Management Frontend
 
 Essential functionality for browsing source code repositories like in Github. Including, but not limiting to essential code review and collaboration functionality, served with a different and enhanced User Interface with seamless integration of Project Management with Agile Boards, Task backlog, states, time tracking and insights. In addition to that, it will be fully mobile friendly and operable at all levels - allowing all collaborators to have full control of the situation on the go: from manager being able to redistribute tasks and check on overall progress across the projects, down to developer being able to make a quick fix and see if it builds, and then deploy it. 
 
-Open Source Code Repositories
+### Open Source Code Repositories
 
 All registered and anonymous users are able to see and get everything - source code of all branches, builds, releases, commits, pull requests, related issues in the project management board, and all related entities. Registered users can participate in all development process of public/open source code repositories - fork, code, commit, push and submit a pull request. However, integrated task management helps to easier track progress and assign commits to tasks even after their submission, so it will never be too late to add that comment to commit message.
 Owner of the repository is the de-facto moderator/maintainer of the repository as well and is responsible for its content and licensing. However, such roles can be redelegated. Multisignature smart contracts integrate on all levels of codum functionality.
 Cloning and forking is not restricted for open source code repositories, however, distribution and derivatives can be enforced by the license if owner/maintainer decides so. Initially it is planned to implement and support GPL 3.0, MIT, BSD, Apache 2.0 license smart contracts.
 
-Private/proprietary Source Code Repositories 
+### Private/proprietary Source Code Repositories 
 
 These work differently than it is implemented now in Github or Bitbucket. The owner of the repository is the user who decides what level of metadata is publically accessible, and what is not. The owner also can delegate responsibility and access to other users or user groups, and roles and access groups logic is shared between code repository and project management functionality. 
 Pricing is as flexible and as enabling as it can be thanks to DPOS and Smart Contracts. Private code repository owner is paying not a user headcount (participating staff and developers) or repository number based monthly subscription. The owner is only being charged in real time for network resources utilized related to the source code repository in question.
