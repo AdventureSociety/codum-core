@@ -17,11 +17,11 @@ The solution - blockchain infrastructure based git code repository service with 
 As in current commercial implementation of existing code repository services, public open source code co-exists with private proprietary code in the same infrastructure. Transactions are processed and their performance depends on delegated stake user has in the blockchain infrastructure. Open source code repositories and their developers will need to be staked to be served, especially when considering a zero resource starting balance. It is possible to allocate minimum viable resources by blockchain consensus to every project or developer in a way that it is enough to start and at the same time it cannot be abused too much to slow down the network. When growing, in such way, open source developers are also motivated to have a part of the network, as they are contributing to the infrastructure they are using themselves, plus they are getting the financial benefit for serving the commercial proprietary codebase, and can have a stake in the grand picture.
 By adding the publication capability of the metadata and taxonomy for the private code repositories, codum also provides the so missing visibility feature for the proprietary code - the value of discoverability:
 
-### For owners of the code: ability to source and profit from the code by licensing it under smart contracts at any stage of the code lifecycle.
+For owners of the code: ability to source and profit from the code by licensing it under smart contracts at any stage of the code lifecycle.
 
-### For developers of the code: added value to the work history and profile, and ability to save valuable development time by discovering and outsourcing the existing code from other private repositories in addition to what is available in the open source.
+For developers of the code: added value to the work history and profile, and ability to save valuable development time by discovering and outsourcing the existing code from other private repositories in addition to what is available in the open source.
 
-### Both sides benefit from wider code reusability and easier integrations naturally happening due to the fact that larger and larger parts of code become common across their projects.
+Both sides benefit from wider code reusability and easier integrations naturally happening due to the fact that larger and larger parts of code become common across their projects.
 						
 All the transactions are formalized in the smart contracts between the parties.
 Licensed forks of private repositories may never become open source without the decision of the owner of the parent private repository, while the metadata of such repository would be public without an option. This enables the accounting of chain forking and cloning added to such metadata of all repositories.
@@ -29,9 +29,7 @@ Code theft detection is integrated in codum as well: in case cloned/forked repos
 Additional values are provided by creating the integrated project management, developer sourcing and market capabilities to the system. Developers gather their portfolio profiles by participating in the projects, both open and proprietary, where such profile data can be used for developer candidate selection process within the system. Employment can then be formalized as a smart contract and payment processed. Also, both contract sides - the developer and the contractor - can rate each other and the rating weight will depend on the smart contract overall value, on top of the success rating gathered from the metadata of the related developments, including such data as estimate overshots, declined pull requests, failed tests and so on.
 On top of that all good, software development driven token emerges, together with this newly created development and licensing economy. As software development services are higher in demand than supply, and when developers are taking codum token as preferred way of payment because it comes with the security and profile value for executing the smart contract, codum starts to gain momentum in valuation related to other crypto and fiat currencies, driving all cryptocurrency economy upwards. Companies need software development services and will want to exchange fiat currency into codum to pay developers. Additionally, software licensed through codum will gain demand in mass of the software consumer market with time, becoming the standard in software licensing.
 
-### Platform Overview
-codum platform consists of these main components:
-
+## Platform Overview
 
 ### Public Website Frontend
 
@@ -90,7 +88,7 @@ Contracted Developer’s Forking - is a special license issued to the contracted
 
 Pull Request Smart Contract enables the Client’s developers to contribute to the Owner’s project and even get paid for it. Issued Pull Request appears on the Owner’s repository (changelog, documentation, changed files and lines and the price). The owner can, from that moment, pull the changes, build and test the submitted code, etc. However, the Owner is not holding any rights to the contributed content before merging the pull request, or fulfilling the smart contract. Knife will work on the benefit of unaccepted/unfulfilled pull request contracts in case such content appears magically in the Owner’s code repository. When the Owner accepts Pull Request, the Client is getting paid for the contribution. If PR submitted content later appears in the Owner’s repository, the Client has a right of compensation and financial obligation of the PR Smart Contract may be executed fully or in parts depending on the situation, and in case defined details in the smart contract are enough to do so, it will be done automatically and immediately.
 
-### Knife - unauthorized distribution and theft protection
+## Knife - unauthorized distribution and theft protection
 “Because it has to be served with the fork”
 
 Blockchain infrastructure providers, motivated by an additional reward opportunity, will be running the bounty hunting Knife operations - theft protection algorithm for code repository owners to enforce licensing terms. Repository owner issues bounty Smart Contract with search criteria and reward for the founder related to owned License Smart Contracts. The bounty criteria can cover selected or all or parts of the Owner’s source code or binary files. The algorithm running on the infrastructure nodes then compares the metadata of the content of the contracted repositories to the metadata content and repository relationships of any other repositories in the network. In case a match is found, both parties (owners of the repositories) are informed of each other. The founder node is rewarded the part of the owner’s contracted bounty once nodes confirm the search is complete against all the network. Reward is result-weighted and distributed to all successful hunters. In case of Licence breach, the repository containing the suspected unlicensed content is suspended from any commercial/licensing operations before the parties resolve the issue, the Owner discards the claim, or no-response timeout happens which is relatively short. The contract is automatically recurring and expires only when Owner decides so, but when there are no more unchecked commits left, the bounty contract is changed from search mode to listen mode. In search mode, the bounty contract is comparing the licensed content to everything is known in the blockchain. In listen mode, everything coming to the blockchain is compared against the licensed content.
@@ -108,7 +106,7 @@ Rank would be the representation of the weight of total developments performed o
 Rating is the ability for contract sides to rate each other. Developer can rate Employer and Employer can rate Developer at closing of the contract. In addition to such rating, successful contract adds to the reputation and failed contract subtracts from it, balancing the human factor. There is also a pattern driven abuse detection algorithm in place to avoid grief or subjective ranking.
 Reputation calculates from the ratio of the rank and weighted average rating, and the price of the weight is determined by the time spent on the task, lines and bytes of code produced, and the price of the contract once Developer Sourcing is implemented. This weighting allows to avoid the situation where a few unsuccessful days of work across freelance contracts may ruin the reputation gained in the years of development. However, if the developer manages to pull out a unicorn project in a ridiculously short period of time, it may be recognized accordingly.
 
-### The Economy
+## The Economy
 
 To make the codum token a liquid and feasible utility token it has to become the token driving all the operations performed in the codum service network, be it code repository transactions, project management service infrastructure transactions or sourcing developer work. The token will be placed in exchanges for additional liquidity. As the codum platform use grows with time and it’s demand rises, the valuation for codum token and all related cryptocurrency valuation goes up as well. The infrastructure providing the services of the platform needs codum as a fuel to run on, while the demand for such services forces the acquisition of codum in exchanges from other currencies. Project Owner needs codum to run private software development project, code repository and in the future even to hire developers to execute the development itself, which comes as equity investment into the project. Project Owners issue licenses for the access to the private code repositories to gain codum. Then, Project Owners inline with other blockchain infrastructure providers and developers exchange their gained codum for other equity to balance liquidity in the exchanges globally.
 
@@ -176,7 +174,7 @@ The dividend payout will occur as soon as the dividend reserve wallet, which wou
 
 On the event of dividend payout, the dividend reserve amount is deducted from the dividend reserve account, while all the wallets containing codum stake contracts, gets their stake value multiplied by 1.001 added to their value.
 
-# Technical Background
+## Technical Background
 
 This section is written with the assumption that reader fully understand the inner workings of both git and EOS.io blockchain.
 
